@@ -11,7 +11,6 @@ case type
     player_1 = Players::Computer.new("X")
     player_2 = Players::Computer.new("O")
   when "1"
-    puts "1"
     player_1 = Players::Human.new("X")
     player_2 = Players::Computer.new("O")
   when "2"
