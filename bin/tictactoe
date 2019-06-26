@@ -7,12 +7,15 @@ puts "Please enter a 0, 1, 2 for the number of players you want to have."
 type = gets.strip
 case type
   when "0"
+    puts "0"
     player_1 = Players::Computer.new("X")
     player_2 = Players::Computer.new("O")
   when "1"
+    puts "1"
     player_1 = Players::Human.new("X")
     player_2 = Players::Computer.new("O")
   when "2"
+    puts "2"
     player_1 = Players::Human.new("X")
     player_2 = Players::Human.new("O")
 end
